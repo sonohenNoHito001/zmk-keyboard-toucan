@@ -49,7 +49,7 @@
 
         func {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &kp DEL  &kp DEL  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LS(LC(HOME))  &kp LS(LC(END))  &trans  &kp LC(LEFT_ARROW)  &trans  &trans  &kp LC(RIGHT_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &kp DEL  &kp DEL  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
