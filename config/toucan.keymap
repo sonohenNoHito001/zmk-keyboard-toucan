@@ -17,6 +17,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
+
+        capsLock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <12 13 14>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -35,7 +49,7 @@
 
         func {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &kp DEL  &kp DEL  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
