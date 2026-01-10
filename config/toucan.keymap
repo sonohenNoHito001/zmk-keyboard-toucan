@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 // OS設定を日本語キーボードのまま使用するための変換定義
 
@@ -138,15 +139,6 @@
             mods = <(MOD_LSFT)>;
         };
 
-        jis_symbole_question_slash: jis_symbole_question_slash {
-            compatible = "zmk,behavior-mod-morph";
-            label = "JIS_SYMBOLE_QUESTION_SLASH";
-            bindings = <&kp QUESTION>, <&kp SLASH>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
         jis_symbole_unsco_backslash: jis_symbole_unsco_backslash {
             compatible = "zmk,behavior-mod-morph";
             label = "JIS_SYMBOLE_UNSCO_BACKSLASH";
@@ -163,7 +155,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE  &kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp ENTER  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp UNDERSCORE  &kp LGUI  &kp LEFT_ALT  &lt 3 LANGUAGE_2  &lt 1 LANGUAGE_1  &lt 2 SPACE  &lt 4 C_MENU
+&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE  &kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &jis_symbole_semicolon_plus  &jis_symbole_colon_aster  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &jis_symbole_unsco_backslash  &kp LGUI  &kp LEFT_ALT  &lt 3 LANGUAGE_2  &lt 1 LANGUAGE_1  &lt 2 SPACE  &lt 4 C_MENU
             >;
         };
 
@@ -175,7 +167,7 @@
 
         func {
             bindings = <
-&trans  &trans  &kp LC(RIGHT_ARROW)  &kp LS(LC(HOME))  &kp LS(LC(END))  &trans  &kp LC(LEFT_ARROW)  &trans  &trans  &kp LC(RIGHT_ARROW)  &trans  &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &trans  &kp DELETE  &trans  &trans  &kp LC(LEFT_ARROW)  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LC(RIGHT_ARROW)  &kp LS(LC(HOME))  &kp LS(LC(END))  &trans  &kp LC(LEFT_ARROW)  &trans  &trans  &kp LC(RIGHT_ARROW)  &trans  &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp ENTER  &trans  &trans  &kp DELETE  &trans  &trans  &kp LC(LEFT_ARROW)  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -186,10 +178,16 @@
             >;
         };
 
-        con {
+        connect {
             display-name = "con";
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp LSHFT  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &trans  &trans
+            >;
+        };
+
+        mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
