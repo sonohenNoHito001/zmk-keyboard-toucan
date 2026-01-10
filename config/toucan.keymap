@@ -54,6 +54,7 @@
 
     behaviors {
         // jis number
+
         jis_symbole_2: jis_symbole_2 {
             compatible = "zmk,behavior-mod-morph";
             label = "JIS_SYMBOLE_2";
@@ -67,6 +68,87 @@
             compatible = "zmk,behavior-mod-morph";
             label = "JIS_SYMBOLE_6";
             bindings = <&kp N6>, <&kp AMPERSAND>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        jis_symbole_7: jis_symbole_7 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_7";
+            bindings = <&kp N7>, <&kp SINGLE_QUOTE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        jis_symbole_minus_equal: jis_symbole_minus_equal {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_MINUS_EQUAL";
+            bindings = <&kp MINUS>, <&kp EQUAL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        jis_symbole_caret_tilde: jis_symbole_caret_tilde {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_CARET_TILDE";
+            bindings = <&kp CARET>, <&kp TILDE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        jis_symbole_backslash_pipe: jis_symbole_backslash_pipe {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_BACKSLASH_PIPE";
+            bindings = <&kp BACKSLASH>, <&kp PIPE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        jis_symbole_backquote_AT: jis_symbole_backquote_AT {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_BACKQUOTE_AT";
+            bindings = <&kp AT>, <&kp GRAVE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        jis_symbole_semicolon_plus: jis_symbole_semicolon_plus {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_SEMICOLON_PLUS";
+            bindings = <&kp SEMI>, <&kp PLUS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        jis_symbole_colon_aster: jis_symbole_colon_aster {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_COLON_ASTER";
+            bindings = <&kp COLON>, <&kp ASTERISK>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        jis_symbole_question_slash: jis_symbole_question_slash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_QUESTION_SLASH";
+            bindings = <&kp QUESTION>, <&kp SLASH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        jis_symbole_unsco_backslash: jis_symbole_unsco_backslash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_UNSCO_BACKSLASH";
+            bindings = <&kp UNDERSCORE>, <&kp BACKSLASH>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
