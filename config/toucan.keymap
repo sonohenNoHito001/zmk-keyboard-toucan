@@ -82,6 +82,8 @@
             mods = <(MOD_LSFT)>;
         };
 
+        // jis symbole
+
         jis_symbole_minus_equal: jis_symbole_minus_equal {
             compatible = "zmk,behavior-mod-morph";
             label = "JIS_SYMBOLE_MINUS_EQUAL";
