@@ -53,6 +53,7 @@
     };
 
     behaviors {
+        // jis number
         jis_symbole_2: jis_symbole_2 {
             compatible = "zmk,behavior-mod-morph";
             label = "JIS_SYMBOLE_2";
