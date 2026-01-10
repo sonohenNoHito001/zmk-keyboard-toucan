@@ -52,36 +52,6 @@
         };
     };
 
-    behaviors {
-        jis_symbole_2: jis_symbole_2 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "JIS_SYMBOLE_2";
-            bindings = <&kp N2>, <&kp DOUBLE_QUOTES>;
-            
-            #binding -cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        jis_symbole_6: jis_symbole_6 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "JIS_SYMBOLE_6";
-            bindings = <&kp N6>, <&kp AMPERSAND>;
-
-            #binding -cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-        
-        jis_symbole_7: jis_symbole_7 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "JIS_SYMBOLE_7";
-            bindings = <&kp N7>, <&kp SINGLE_QUOTE>;
-            
-            #binding -cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
