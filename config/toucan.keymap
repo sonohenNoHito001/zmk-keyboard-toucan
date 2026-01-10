@@ -52,6 +52,15 @@
         };
     };
 
+    behaviors {
+        test: test {
+            compatible = "zmk,behavior-caps-word";
+            label = "TEST";
+            #binding-cells = <0>;
+            continue-list = <A>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
