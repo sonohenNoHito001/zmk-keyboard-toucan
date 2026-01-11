@@ -169,12 +169,14 @@
         };
 
         num {
+            display-name = "num";
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp N1  &jis_symbole_2  &kp N3  &kp N4  &kp N5  &jis_symbole_6  &jis_symbole_7  &kp N8  &kp N9  &kp N0  &jis_symbole_minus_equal  &trans  &trans  &trans  &trans  &trans  &trans  &kp PLUS  &kp MINUS  &kp STAR  &kp SLASH  &kp PERCENT  &kp CARET  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         func {
+            display-name = "func";
             bindings = <
 &trans  &trans  &kp LC(RIGHT_ARROW)  &kp LS(LC(HOME))  &kp LS(LC(END))  &trans  &kp LC(LEFT_ARROW)  &trans  &trans  &kp LC(RIGHT_ARROW)  &trans  &kp BACKSPACE  &trans  &trans  &trans  &trans  &cut_to_end  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp ENTER  &trans  &trans  &kp DELETE  &trans  &trans  &kp LC(LEFT_ARROW)  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -188,13 +190,14 @@
         };
 
         connect {
-            display-name = "con";
+            display-name = "CON";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &trans  &trans
             >;
         };
 
         mouse {
+            display-name = "MOUSE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
