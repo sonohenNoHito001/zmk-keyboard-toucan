@@ -109,7 +109,7 @@
         device = <&glidepoint_split>;
         input-processors = <
             &zip_xy_scaler 250 100
-            &zip_temp_layer 5 500
+            &zip_temp_layer 5 850
         >;
         scroller {
             layers = <6>;
