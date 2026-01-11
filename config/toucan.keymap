@@ -59,7 +59,7 @@
         jis_symbole_2: jis_symbole_2 {
             compatible = "zmk,behavior-mod-morph";
             label = "JIS_SYMBOLE_2";
-            bindings = <&kp N2>, <&kp DOUBLE_QUOTES>;
+            bindings = <&kp N2>, <&kp JP_DQUOTE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -164,7 +164,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE  &kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &jis_symbole_semicolon_plus  &jis_symbole_colon_aster  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &jis_symbole_unsco_backslash  &kp LGUI  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 3 LANGUAGE_1  &lt 2 SPACE  &lt 4 C_MENU
+&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE  &kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &jis_symbole_semicolon_plus  &jis_symbole_colon_aster  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &lt 5 M  &kp COMMA  &kp DOT  &kp SLASH  &jis_symbole_unsco_backslash  &kp LGUI  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 3 LANGUAGE_1  &lt 2 SPACE  &lt 4 C_MENU
             >;
         };
 
@@ -178,7 +178,7 @@
         func {
             display-name = "func";
             bindings = <
-&kp LANG_ZENKAKUHANKAKU  &trans  &kp LC(RIGHT_ARROW)  &kp LS(LC(HOME))  &kp LS(LC(END))  &trans  &kp LC(LEFT_ARROW)  &trans  &trans  &kp LC(RIGHT_ARROW)  &trans  &kp BACKSPACE  &trans  &trans  &trans  &trans  &cut_to_end  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp ENTER  &trans  &trans  &kp DELETE  &trans  &trans  &kp LC(LEFT_ARROW)  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LC(RIGHT_ARROW)  &kp LS(LC(HOME))  &kp LS(LC(END))  &trans  &kp LC(LEFT_ARROW)  &trans  &trans  &kp LC(RIGHT_ARROW)  &trans  &kp BACKSPACE  &trans  &trans  &trans  &trans  &cut_to_end  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp ENTER  &trans  &trans  &kp DELETE  &trans  &trans  &kp LC(LEFT_ARROW)  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -199,7 +199,7 @@
         mouse {
             display-name = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
