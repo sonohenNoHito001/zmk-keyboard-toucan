@@ -211,7 +211,7 @@
         func {
             display-name = "func";
             bindings = <
-&trans  &trans  &kp LC(RIGHT_ARROW)  &kp LS(LC(HOME))  &kp LS(LC(END))  &trans  &kp LC(LEFT_ARROW)  &trans  &trans  &kp LC(RIGHT_ARROW)  &trans  &kp BACKSPACE  &kp JP_HANZEN  &trans  &trans  &trans  &cut_to_end  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp ENTER  &trans  &trans  &kp DELETE  &trans  &trans  &kp LC(LEFT_ARROW)  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LC(RIGHT_ARROW)  &kp LS(LC(HOME))  &kp LS(LC(END))  &trans  &kp LC(LEFT_ARROW)  &trans  &trans  &kp LC(RIGHT_ARROW)  &trans  &kp BACKSPACE  &trans  &trans  &trans  &trans  &cut_to_end  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp ENTER  &trans  &trans  &kp DELETE  &trans  &trans  &kp LC(LEFT_ARROW)  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
