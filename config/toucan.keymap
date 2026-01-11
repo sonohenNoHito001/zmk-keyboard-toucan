@@ -37,7 +37,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <2 1>;
+            key-positions = <2 3>;
         };
 
         swith-large-small {
