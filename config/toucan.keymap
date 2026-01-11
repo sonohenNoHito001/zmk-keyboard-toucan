@@ -139,6 +139,15 @@
             mods = <(MOD_LSFT)>;
         };
 
+        jis_symbole_right_bracket: jis_symbole_right_bracket {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_RIGHT_BRACKET";
+            bindings = <&kp JP_LBRACKET>, <&kp JP_RBRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
         jis_symbole_unsco_backslash: jis_symbole_unsco_backslash {
             compatible = "zmk,behavior-mod-morph";
             label = "JIS_SYMBOLE_UNSCO_BACKSLASH";
