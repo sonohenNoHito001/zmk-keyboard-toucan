@@ -121,6 +121,15 @@
             mods = <(MOD_LSFT)>;
         };
 
+        jis_symbole_right_bracket: jis_symbole_right_bracket {
+            compatible = "zmk,behavior-mod-morph";
+            label = "JIS_SYMBOLE_RIGHT_BRACKET";
+            bindings = <&kp JP_LBRACKET>, <&kp JP_LBRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
         jis_symbole_semicolon_plus: jis_symbole_semicolon_plus {
             compatible = "zmk,behavior-mod-morph";
             label = "JIS_SYMBOLE_SEMICOLON_PLUS";
@@ -139,10 +148,10 @@
             mods = <(MOD_LSFT)>;
         };
 
-        jis_symbole_right_bracket: jis_symbole_right_bracket {
+        jis_symbole_left_bracket: jis_symbole_left_bracket {
             compatible = "zmk,behavior-mod-morph";
-            label = "JIS_SYMBOLE_RIGHT_BRACKET";
-            bindings = <&kp JP_LBRACKET>, <&kp JP_RBRACE>;
+            label = "JIS_SYMBOLE_LEFT_BRACKET";
+            bindings = <&kp JP_RBRACKET>, <&kp JP_RBRACE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
