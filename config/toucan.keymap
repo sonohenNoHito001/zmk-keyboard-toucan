@@ -206,7 +206,7 @@
         sym {
             display-name = "SYM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &jis_symbole_minus_equal  &jis_symbole_caret_tilde  &jis_symbole_backslash_pipe  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &jis_symbole_backquote_AT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &jis_symbole_minus_equal  &jis_symbole_caret_tilde  &jis_symbole_backslash_pipe  &jis_symbole_backquote_AT  &jis_symbole_right_bracket  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &jis_symbole_semicolon_plus  &jis_symbole_colon_aster  &jis_symbole_left_bracket  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &jis_symbole_unsco_backslash  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
